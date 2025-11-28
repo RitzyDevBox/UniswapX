@@ -136,3 +136,8 @@ forge script script/DeployTrustedExclusiveDutch.s.sol:DeployTrustedExclusiveDutc
 forge script script/DeployHypercoreRouterExecutor.s.sol:DeployHypercoreRouterExecutor  --fork-url hypercore --broadcast --legacy
 
   HypercoreRouterExecutor 0xebd43e6AEfBb3D5a7411e3Cf0921e505d47f2840
+
+
+BARE BONES TESTS:
+
+forge test --match-path test/BareBones/ModuleRegistryRouter.t.sol
